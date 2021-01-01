@@ -6,12 +6,8 @@ import (
 	"os"
 )
 
-func Dummy() {
 
-	fmt.Println("Dummy Function")
-}
-
-func StartFunction() {
+func main() {
 
 	crd.CreateFile()
 
@@ -43,11 +39,5 @@ func StartFunction() {
 
 		}
 	}
-
-}
-
-func main() {
-
-	StartFunction()
 
 }
